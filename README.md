@@ -1,16 +1,19 @@
 A streamlined setup for [JsTestDriver][]
 ========================================
-This repository contains helpers and a recommended layout for use with
-[JsTestDriver][].
+This repository contains helpers for use with [JsTestDriver][].
 
-Why does JsTestDriver need any helpers? So you don't have to type this:
+Why does JsTestDriver need any helpers? So instead of typing this:
 
     $ java -jar JsTestDriver-1.2.2.jar --port 9876 --tests all
            --browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
 
-You can instead type this:
+You can type this:
 
     $ testdriver --port 9876 --tests all --browser firefox_mac
+
+Use it in your project
+======================
+Put `bin/` in your project root. You can rename it. Just keep in mind that by default it expects your project root to be the parent directory.
 
 Layout
 ======
