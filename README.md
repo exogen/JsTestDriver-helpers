@@ -38,6 +38,7 @@ Generic helpers:
 * `bin/testdriver`: A wrapper script that sets `--basePath` to the project root and adds `bin/browsers/` to `$PATH`.
 * `bin/browsers/firefox_mac`: A wrapper script to launch Firefox on a Mac.
 * `bin/browsers/safari_mac`: A wrapper script to launch Safari on a Mac.
+* `bin/browsers/chrome_mac`: A wrapper script to launch Google Chrome on a Mac.
 
 Adding more browser executable scripts to the `bin/browsers/` directory will make them accessible with the `--browsers` argument.
 
