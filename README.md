@@ -13,7 +13,9 @@ You can type this:
 
 Use it in your project
 ======================
-Put `bin/` in your project root. You can rename it. Just keep in mind that by default it expects your project root to be the parent directory.
+Just put `bin/` in your project root. (You can rename it, just keep in mind that by default it expects your project root to be the parent directory.)
+
+Your JsTestDriver configuration file should also be in the project root.
 
 Layout
 ======
