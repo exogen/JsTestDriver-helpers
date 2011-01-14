@@ -5,12 +5,12 @@ This repository contains helpers and a recommended layout for use with
 
 Why does JsTestDriver need any helpers? So you don't have to type this:
 
-    $ java -jar JsTestDriver-1.2.2.jar --port 9876
-           --browser /Applications/Firefox.app/Contents/MacOS/firefox-bin --tests all
+    $ java -jar JsTestDriver-1.2.2.jar --port 9876 --tests all
+           --browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
 
 You can instead type this:
 
-    $ testdriver --port 9876 --browser firefox_mac --tests all
+    $ testdriver --port 9876 --tests all --browser firefox_mac
 
 Files
 =====
