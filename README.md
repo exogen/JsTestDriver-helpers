@@ -12,6 +12,15 @@ You can instead type this:
 
     $ testdriver --port 9876 --tests all --browser firefox_mac
 
+Layout
+======
+
+* `.`: Project root. Contains JsTestDriver configuration file.
+* `src/`: Project source code – the code we want to test.
+* `test/`: Test runner scripts.
+* `test/browsers/`: Browser executables (symbolic links or wrapper scripts).
+* `test/tests/`: Project test cases.
+
 Files
 =====
 Project specific:
