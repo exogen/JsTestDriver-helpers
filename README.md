@@ -1,6 +1,6 @@
 A streamlined setup for [JsTestDriver][]
 ========================================
-This repository contains helpers for use with [JsTestDriver][].
+This repository contains helpers for use with [JsTestDriver][]. JsTestDriver is also currently bundled in the repository, for better or worse.
 
 Why does JsTestDriver need any helpers? So instead of typing this:
 
@@ -10,6 +10,19 @@ Why does JsTestDriver need any helpers? So instead of typing this:
 You can type this:
 
     $ testdriver --port 9876 --tests all --browser firefox_mac
+
+Try it out
+==========
+Clone the repository and run:
+
+    $ ./bin/testdriver --port 9876 --tests all --browser safari_mac,firefox_mac,chrome_mac
+
+This will run the two example test cases in Safari, Firefox, and Chrome, assuming you're on a Mac with them. Writing launchers is as simple as adding a script or symlink in `bin/browsers/`. For example, we might add a `firefox_safe` launcher:
+
+    #!/bin/bash
+    firefox -safe-mode $@
+
+We can then use `--browser firefox_safe`.
 
 Use it in your project
 ======================
