@@ -17,7 +17,7 @@ Clone the repository and run:
 
     $ ./bin/testdriver --port 9876 --tests all --browser safari_mac,firefox_mac,chrome_mac
 
-This will run the two example test cases in Safari, Firefox, and Chrome, assuming you're on a Mac with them. Writing launchers is as simple as adding a script or symlink in `bin/browsers/`. For example, we might add a `firefox_safe` launcher:
+This will run the two example test cases in Safari, Firefox, and Chrome, assuming you're on a Mac with them. Adding browser launchers is as simple as putting a script or symlink in `bin/browsers/`. For example, we can add a `firefox_safe` launcher:
 
     #!/bin/bash
     firefox -safe-mode $@
