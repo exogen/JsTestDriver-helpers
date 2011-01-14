@@ -15,11 +15,13 @@ You can instead type this:
 Files
 =====
 Project specific:
+
 * `jsTestDriver.conf`: Standard [JsTestDriver configuration file] for our example project.
 * `src/example.js`: Some example code to test.
 * `test/tests/test_example.js`: Our example test cases.
 
 Generic helpers:
+
 * `test/JsTestDriver.jar`: A symbolic link to the version of JsTestDriver we're using.
 * `test/testdriver`: A wrapper script that sets `--basePath` to the project root and adds `browsers` to `$PATH`.
 * `test/browsers/firefox_mac`: A wrapper script to launch Firefox on a Mac.
