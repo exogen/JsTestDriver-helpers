@@ -15,10 +15,10 @@ You can instead type this:
 Layout
 ======
 
-* `.`: Project root. Contains JsTestDriver configuration file.
+* `.`: (top level) Project root. Contains JsTestDriver configuration file.
 * `src/`: Project source code – the code we want to test.
-* `test/`: Test runner scripts.
-* `test/browsers/`: Browser executables (symbolic links or wrapper scripts).
+* `test/`: Test runner files.
+* `test/browsers/`: Browser launchers (symbolic links or wrapper scripts).
 * `test/tests/`: Project test cases.
 
 Files
